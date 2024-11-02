@@ -3,14 +3,7 @@ endpoints:
     streamRate: 25
   anthropic:
     streamRate: 25
-  google:
-    streamRate: 1
-  azureOpenAI:
-    streamRate: 20
-  assistants:
-    streamRate: 30
-  azureAssistants:
-    streamRate: 30
+ 
   # the `all` setting would override all the above values, making them unnecessary to be set
   all:
     streamRate: 25
