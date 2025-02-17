@@ -18,10 +18,9 @@ endpoints:
     streamRate: 25
  
   # the `all` setting would override all the above values, making them unnecessary to be set
-  endpoints:
-    agents:
-      recursionLimit: 50
-      disableBuilder: false
+  agents:
+    recursionLimit: 50
+    disableBuilder: false
   all:
     streamRate: 25
 
