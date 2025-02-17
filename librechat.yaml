@@ -1,5 +1,16 @@
 version: 1.1.6
 
+interface:
+  endpointsMenu: true
+  modelSelect: true
+  parameters: true
+  sidePanel: true
+  presets: true
+  prompts: true
+  bookmarks: true
+  multiConvo: true
+  agents: true
+
 endpoints:
   openAI:
     streamRate: 25
@@ -7,6 +18,10 @@ endpoints:
     streamRate: 25
  
   # the `all` setting would override all the above values, making them unnecessary to be set
+  endpoints:
+    agents:
+      recursionLimit: 50
+      disableBuilder: false
   all:
     streamRate: 25
 
